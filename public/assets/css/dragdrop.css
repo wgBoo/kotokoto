@@ -1,0 +1,40 @@
+@font-face {
+	font-family: 'NanumGothic';
+	src: url('/html5/common/fonts/NanumGothic.eot');
+	src: url('/html5/common/fonts/NanumGothic.eot?#iefix') format('embedded-opentype'), 
+		 url('/html5/common/fonts/NanumGothic.woff') format('woff'), 
+		 url('/html5/common/fonts/NanumGothic.ttf') format('truetype');
+}
+
+* {
+	font-family: Consolas, "NanumGothic", monospace !important;
+}
+
+p {
+	text-align: center;
+	font-size: 15pt;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+}
+
+table td {
+	width: 50%;
+	text-align: left;
+	font-size: 16pt;
+}
+
+table td:first-child {
+	border-right: 2px dotted gray;
+}
+
+table td .draggable-div{
+	border: 2px solid black;
+	width: 50%;
+	padding: 10px;
+	margin: 10px auto;
+	text-align: center;
+	font-size: 14pt;
+}

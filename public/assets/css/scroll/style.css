@@ -1,0 +1,12 @@
+.content{ -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+
+.showcase .horizontal-images.content{
+	height: 245px;
+	width: 1240px;
+	max-width: 97%;
+	padding: 5px 5px 0 5px;
+}
+
+.horizontal-images.content div{
+	float: left;
+}

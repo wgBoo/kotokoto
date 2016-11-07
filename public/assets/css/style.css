@@ -1,0 +1,63 @@
+
+body {
+    margin: 0;
+}
+
+#full-header {
+
+    padding:0;
+    width:100%;
+    height:auto;
+    background-color: gray;
+}
+
+#logo {
+    padding:0;
+    width:100%;
+    height:90px;
+}
+
+#bar_bg {
+    background:hotpink;
+    padding:0;
+    width:100%;
+    height:50px;
+}
+
+#full-left {
+    background-color: #09C;
+    float: left;
+    height: 800px;
+    width: 12%;
+    position: relative;
+}
+
+#full-right {
+    width: 160px;
+    padding: 20px;
+    margin-bottom: 20px;
+    float: right;
+    border: 1px solid yellow;
+}
+
+#full-footer {
+    clear: both;
+    padding: 20px;
+    background-color: darkorange;
+
+}
+
+#recipeadd td{
+    width:180px;
+    text-align: center;
+}
+.crops{
+    overflow: scroll;
+
+    width: 600px;
+    height:400px;
+}
+
+.recipebox{
+    width: 100%;
+}
